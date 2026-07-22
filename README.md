@@ -78,9 +78,7 @@ Digit Classification (0-9)
 - pip package manager
 
 ### Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+
 
 **requirements.txt:**
 ```
@@ -190,10 +188,7 @@ print(f"Confidence: {confidence:.2%}")
 print("Top 3 predictions:", top3)
 ```
 
-**Command line:**
-```bash
-python predict.py --file path/to/audio.wav
-```
+
 
 ## 📊 Results
 
@@ -272,8 +267,6 @@ persian-digit-recognition/
 ├── train.py               # Training script
 ├── evaluate.py            # Evaluation script with visualizations
 ├── finetune.py            # User personalization script
-├── predict.py             # Prediction script
-├── requirements.txt       # Python dependencies
 ├── dataset/               # Training dataset (create this)
 │   ├── 0/
 │   ├── 1/
